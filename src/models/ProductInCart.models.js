@@ -1,6 +1,5 @@
 const db = require("../utils/database");
 const { DataTypes } = require("sequelize");
-
 /**
  * @openapi
  * components:
@@ -10,22 +9,23 @@ const { DataTypes } = require("sequelize");
  *       properties:
  *         cartId:
  *           type: integer
- *             example: 1
- *                productId:
- *                     type: integer
- *                      example: 1
- *                        quantity:
- *                          type:integer
- *                              example:1
- *                                price:
- *                                 type:decimal
- *                                    example:10.00
- *                         status:
- *                           type:boolean
- *                             example:false
- *
- *  
+ *           example: 1
+ *         productId:
+ *           type: integer
+ *           example: 2
+ *         quantity:
+ *           type:
+ *           example: 10
+ *         price:
+ *           type:
+ *           example: 100
+ *         status:
+ *            type:
+ *            example: false
  */
+
+
+
 const ProductInCart = db.define(
   "ProductInCart",
   {

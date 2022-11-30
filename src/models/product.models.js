@@ -1,7 +1,8 @@
 const db = require("../utils/database");
 const { DataTypes } = require("sequelize");
 const Users=require("./users.models");
-/**
+
+ /**
  * @openapi
  * components:
  *   schemas:
@@ -10,22 +11,27 @@ const Users=require("./users.models");
  *       properties:
  *         name:
  *           type: string
- *             example: "alcatel"
- *               imgProd:
- *                     type: string
- *                        example: imgen.jpg
- *                         price:
- *                           type:decimal
- *                             example:20.00
- *                                availableQty:
- *                                     type:integer
- *                                        example:10
- *                                         status:
- *                                           type:boolean
- *                                              userId: 
- *                                                type:integer
- *                                                example:2
+ *           example: alcatel
+ *         imgProd:
+ *           type: string
+ *           example: imagenes.jpg
+ *         price:
+ *           type:
+ *           example: 100
+ *         availableQty:
+ *           type: integer
+ *           example: 10
+ *         status:
+ *            type:
+ *            example: false
+ *         userId:
+ *           type: integer
+ *           example: 1
+ * 
+ * 
  */
+
+
 
 
 

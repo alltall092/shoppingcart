@@ -2,43 +2,38 @@ const db = require("../utils/database");
 const { DataTypes } = require("sequelize");
 const bcrypt = require("bcrypt");
 
+
 /**
  * @openapi
  * components:
  *   schemas:
- *     users:
+ *     Users:
  *       type: object
  *       properties:
  *         username:
  *           type: string
- *             example: piyoyo279
- *          email:
+ *           example: piyoyo279
+ *         email:
  *           type: string
- *             example: piyoyo@gmail.com
- *                password:
- *                    type: string
- *                     example: example
- *                          register:
- *                            type: object
- *                              properties:
- *                                    username:
- *                                      type: string
- *                                         example:piyoyo279
- *                                                email:
- *                                                     type: string
- *                                                       example: piyoyo279@gmail.com
- *                                                          password:
- *                                                               type: string
- *                                                                  example: pass1234
- *                                                                    securitySchemes:
- *                                                                         bearerAuth:
- *                                                                            type: http
- *                                                                               scheme: bearer
- *                                                                                  bearerFormat: JWT
+ *           example: piyoyo279@gmail.com
+ *     register:
+ *       type: object
+ *       properties:
+ *         username:
+ *           type: string
+ *           example: piyoyo279
+ *         email:
+ *           type: string
+ *           example: piyoyo279@gmail.com
+ *         password:
+ *           type: string
+ *           example: 1234
+ *   securitySchemes:
+ *     bearerAuth:
+ *       type: http
+ *       scheme: bearer
+ *       bearerFormat: JWT
  */
-
-
-
 const Users = db.define(
   "users",
   {

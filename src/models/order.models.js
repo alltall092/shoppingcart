@@ -10,16 +10,16 @@ const { DataTypes } = require("sequelize");
  *       properties:
  *         totalPrice:
  *           type: integer
- *             example: 1
- *             userId:
- *                     type: integer
- *                      example: 1000
- *                         status:
- *                           type:boolean
- *                             example:false
- *
- *  
+ *           example: 100
+ *         userId:
+ *           type: integer
+ *           example: 1
+ *         status:
+ *           type:
+ *           example: false
  */
+
+
 
 
 

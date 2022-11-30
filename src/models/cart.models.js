@@ -9,13 +9,13 @@ const { DataTypes } = require("sequelize");
  *       properties:
  *         userId:
  *           type: integer
- *             example: 1
- *             totalPrice:
- *                     type: integer
- *                      example: 1000
- *
- *  
+ *           example: 1
+ *         totalPrice:
+ *           type: integer
+ *           example: 100
  */
+
+
 
 
 const Cart = db.define(
