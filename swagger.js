@@ -15,11 +15,11 @@ const options = {
     "./src/routes/auth.routes.js",
     "./src/routes/product.routes.js",
     "./src/models/users.models.js",
-    "src/models/product.models.js",
-    "src/models/cart.models.js",
-    "src/models/ProductInCart.models.js",
-    "src/models/order.models.js",
-    "src/models/ProductInOrder.models.js"
+    "./src/models/product.models.js",
+    "./src/models/cart.models.js",
+    "./src/models/ProductInCart.models.js",
+    "./src/models/order.models.js",
+    "./src/models/ProductInOrder.models.js"
 
   ],
 };
