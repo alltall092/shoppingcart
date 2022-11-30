@@ -1,7 +1,7 @@
 const Users=require("./users.models");
 const Product=require("./product.models");
 const Cart=require("./cart.models");
-const ProductInCart=require("./ProductIncart.models");
+const ProductInCart=require("./ProductInCart.models");
 const Order=require("./order.models");
 const ProductInOrder=require("./ProductInOrder.models");
 module.exports = {
